@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="email"], input[type="password"] {
+  max-width: 300px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #45a049;
+}
+
+.dashboard-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.dashboard-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.calendar-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.calendar-container input, .calendar-container .react-datepicker-wrapper {
+  max-width: 300px;
+}
+
+.react-big-calendar {
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.react-big-calendar .rbc-toolbar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.react-big-calendar .rbc-header {
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.react-big-calendar .rbc-day-bg {
+  background-color: #f9f9f9;
+}
+
+.journal-container {
+  padding: 20px;
+}
+
+.journal-container textarea {
+  max-width: 600px;
+  height: 150px;
+}
+
+.journal-entry {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.journal-entry button {
+  background-color: #f44336;
+  margin-top: 10px;
+}
+
+.journal-entry button:hover {
+  background-color: #d32f2f;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  max-width: 100%;
+}
+
+.form-container button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .calendar-container input {
+    max-width: 100%;
+  }
+
+  .dashboard-container h1 {
+    font-size: 30px;
+  }
+}

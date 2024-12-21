@@ -1,0 +1,116 @@
+.login-page {
+    background: url('https://media.cnn.com/api/v1/images/stellar/prod/200730144646-journal-lead.jpg?q=w_2499,h_1404,x_0,y_0,c_fill') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background covers the full screen */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', Arial, sans-serif;
+  }
+  
+  
+  .form-container {
+    background: rgba(200, 154, 130, 0.8); /* Lighter translucent white background */
+    border-radius: 12px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .form-container:hover {
+    transform: translateY(-5px); /* Subtle hover effect on form */
+  }
+  
+  .logo {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Headings */
+  h2 {
+    font-size: 28px;
+    color: #6e1a1a; 
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  
+  .form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .form-container input:focus {
+    outline: none;
+    border-color: #6e1a1a;
+    box-shadow: 0 0 10px rgba(110, 26, 26, 0.5);
+  }
+  
+  
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6e1a1a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .form-container button:hover {
+    background-color: #892020;
+  }
+  
+ 
+  .form-container a {
+    text-decoration: none;
+    color: #6e1a1a;
+    font-size: 14px;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .form-container footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
